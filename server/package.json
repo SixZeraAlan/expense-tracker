@@ -1,31 +1,56 @@
 {
-  "name": "server",
+  "name": "expensetracker",
   "version": "1.0.0",
-  "description": "Expenses tracker",
+  "description": "backend for expenseTracker",
   "main": "server.js",
-  "engines": {
-    "node": "v16.4.1"
-  },
   "scripts": {
-    "start": "node src/server.js",
-    "watch": "nodemon src/server.js"
+    "start": "node server",
+    "server": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix client",
+    "dev": "nodemon ./start.js"
   },
-  "keywords": [
-    "MERN"
-  ],
-  "author": "inovotek",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlduinLeung/ExpenseTracker.git"
+  },
+  "author": "AlduinLeung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlduinLeung/ExpenseTracker/issues"
+  },
+  "homepage": "https://github.com/AlduinLeung/ExpenseTracker#readme",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "@types/koa": "^2.0.39",
+    "@types/node": "^8.0.8",
     "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "express-async-handler": "^1.1.4",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.0.4",
-    "mongoose-paginate-v2": "^1.4.2"
+    "import-dir": "^0.0.1",
+    "jsonwebtoken": "^7.4.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compose": "^4.0.0",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.0.1",
+    "koa-onerror": "^3.1.0",
+    "koa-router": "^7.2.1",
+    "koa2-cors": "^2.0.6",
+    "md5": "^2.2.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.1.1",
+    "eslint-plugin-prettier": "^2.1.2",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.1",
+    "nodemon": "^1.11.0",
+    "prettier": "^1.5.2"
   }
 }

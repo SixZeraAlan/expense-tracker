@@ -1,0 +1,14 @@
+.nav-wrap{
+  height: 48px;
+  background-color: rgb(243, 243, 243);
+  .nav-list{
+    width: 70%;
+    margin:0 auto;
+    @apply flex items-center justify-start;
+    .nav-item{
+      @apply flex;
+      @apply text-center block  border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-3 px-5
+        }
+      
+    }
+  }

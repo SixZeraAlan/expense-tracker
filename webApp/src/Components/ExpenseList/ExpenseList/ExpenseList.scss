@@ -1,0 +1,64 @@
+.expense-table{
+  margin: 40px auto;
+  width: 1000px;
+  @apply space-y-1;
+  .list-header{
+    .list-header-item{
+      @apply text-2xl  font-bold;
+    }
+    @apply flex justify-between ;
+    width: 100%;
+    button {
+      @apply text-lg ;
+      background-color: #60A5FA;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+      &:hover{
+        background-color: #60A5FA;
+      }
+    }
+  }
+  table{
+   @apply min-w-full;
+   // thead style
+   thead{
+    @apply border-b bg-white ;
+    th{
+      @apply text-lg font-medium text-gray-900 px-6 py-4 text-left;
+    }
+   };
+   // tbody style
+   tbody{
+    tr{
+      @apply  bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100 ;
+      td{
+        @apply  px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 text-left;
+      }
+    }
+ }
+  }
+}
+
+.table-icon-group{
+  @apply flex;
+  .delete-icon {
+    stroke:red;
+    @apply mr-4;
+    @apply cursor-pointer;
+    @apply text-gray-600 hover:text-red-600;
+  }
+  .edit-icon {
+    stroke: skyblue;
+    @apply cursor-pointer;
+    @apply text-gray-600 hover:text-blue-600;
+  }
+}
+.income-red{
+  @apply  ml-4 text-xs   uppercase px-3 py-1 bg-red-200  rounded-full text-red-700;
+}
+.expense-green{
+  @apply  ml-4 text-xs uppercase px-2 py-1 bg-green-200  rounded-full text-green-700;
+}

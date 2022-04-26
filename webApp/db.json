@@ -1,0 +1,188 @@
+{
+  "account": [
+    {
+      "title": "Salary Income April 2022",
+      "type": "income",
+      "catagory": "salary",
+      "amount": "4000",
+      "date": "2022-04-17",
+      "id": "VkGDsqK4"
+    },
+    {
+      "title": "travel ticket April",
+      "type": "expense",
+      "catagory": "travel",
+      "amount": "300",
+      "date": "2022-04-20",
+      "id": "rqFCTYy1"
+    },
+    {
+      "title": "shopping out side April",
+      "type": "expense",
+      "catagory": "shopping",
+      "amount": "400",
+      "date": "2022-04-20",
+      "id": "rqFCTYy2"
+    },
+    {
+      "title": "rent in April",
+      "type": "expense",
+      "catagory": "generalexpense",
+      "amount": "1000",
+      "date": "2022-04-20",
+      "id": "rqFCTYy1221"
+    },
+    {
+      "title": "rent in March",
+      "type": "expense",
+      "catagory": "generalexpense",
+      "amount": "1000",
+      "date": "2022-03-20",
+      "id": "rqFCTYy11"
+    },
+    {
+      "title": "shopping out side March",
+      "type": "expense",
+      "catagory": "shopping",
+      "amount": "600",
+      "date": "2022-03-28",
+      "id": "rqFCTYy22"
+    },
+    {
+      "title": "tickets in March",
+      "type": "expense",
+      "catagory": "travel",
+      "amount": "200",
+      "date": "2022-03-07",
+      "id": "POXoRyy"
+    },
+    {
+      "title": "utilities in March",
+      "type": "expense",
+      "catagory": "utilities",
+      "amount": "1000",
+      "date": "2022-03-22",
+      "id": "ucy3yus"
+    },
+    {
+      "title": "investment in April",
+      "type": "income",
+      "catagory": "investment",
+      "amount": "1000",
+      "date": "2022-04-10",
+      "id": "4a4efdT"
+    },
+    {
+      "title": "rent from house in April",
+      "type": "income",
+      "catagory": "property",
+      "amount": "2100",
+      "date": "2022-04-17",
+      "id": "bcj-KVp"
+    },
+    {
+      "title": "Business profit in April",
+      "type": "income",
+      "catagory": "business",
+      "amount": "2500",
+      "date": "2022-04-10",
+      "id": "kD9zUuK"
+    },
+    {
+      "title": "rent in February",
+      "type": "expense",
+      "catagory": "generalexpense",
+      "amount": "1200",
+      "date": "2022-02-22",
+      "id": "ucy3yu221"
+    },
+    {
+      "title": "Travel in February",
+      "type": "expense",
+      "catagory": "travel",
+      "amount": "100",
+      "date": "2022-02-22",
+      "id": "ucy3y1u1"
+    },
+    {
+      "title": "shopping in February",
+      "type": "expense",
+      "catagory": "shopping",
+      "amount": "0",
+      "date": "2022-02-22",
+      "id": "ucy3yu221"
+    },
+    {
+      "title": "Utilitis in February",
+      "type": "expense",
+      "catagory": "utilities",
+      "amount": "200",
+      "date": "2022-02-22",
+      "id": "ucy3yuww1"
+    },
+    {
+      "title": "rent in January",
+      "type": "expense",
+      "catagory": "generalexpense",
+      "amount": "1400",
+      "date": "2022-01-22",
+      "id": "ucy3yu2ss21"
+    },
+    {
+      "title": "Travel in January",
+      "type": "expense",
+      "catagory": "travel",
+      "amount": "2000",
+      "date": "2022-01-22",
+      "id": "ucy3y1sddau1"
+    },
+    {
+      "title": "shopping in January",
+      "type": "expense",
+      "catagory": "shopping",
+      "amount": "1000",
+      "date": "2022-01-22",
+      "id": "ucy3sddsyu221"
+    },
+    {
+      "title": "Utilitis in January",
+      "type": "expense",
+      "catagory": "utilities",
+      "amount": "400",
+      "date": "2022-01-22",
+      "id": "ucy3yudssww1"
+    },
+    {
+      "title": "rent in December",
+      "type": "expense",
+      "catagory": "generalexpense",
+      "amount": "1000",
+      "date": "2021-12-20",
+      "id": "ucy3yu221"
+    },
+    {
+      "title": "Travel in December",
+      "type": "expense",
+      "catagory": "travel",
+      "amount": "2000",
+      "date": "2021-12-20",
+      "id": "ucy3yss1u1"
+    },
+    {
+      "title": "shopping in DECEMBER",
+      "type": "expense",
+      "catagory": "shopping",
+      "amount": "1000",
+      "date": "2021-12-20",
+      "id": "ucy3yu221"
+    },
+    {
+      "title": "Utilitis in December",
+      "type": "expense",
+      "catagory": "utilities",
+      "amount": "100",
+      "date": "2021-12-20",
+      "id": "ucy3yuww1"
+    }
+  ]
+}

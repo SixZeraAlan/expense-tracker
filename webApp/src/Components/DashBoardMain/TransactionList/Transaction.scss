@@ -1,0 +1,49 @@
+.transactionList{
+  width: 500px;
+  .list-title{
+   @apply flex justify-center items-center;
+   @apply  align-middle text-2xl;
+    height: 80px;
+  }
+}
+.transaction{
+    height: 80px;
+    @apply flex items-center;
+    @apply hover:bg-gray-200;
+    .transaction-right{
+      width: 20%;
+      @apply container flex justify-end space-x-2 self-center;
+      padding-right: 20px;
+      .income{
+        @apply text-red-700 text-2xl italic;
+      }
+      .expense{
+        @apply text-green-700 text-2xl italic;
+      }
+    }
+    .transaction-left{
+      padding-left: 20px;
+      width: 70%;
+      @apply container flex justify-start  flex-col;
+      .transactionTitle{
+        @apply text-xl;
+     }
+     .transaction-date{
+      @apply text-sm text-gray-400;
+     }
+    }
+    button{
+      @apply rounded-full bg-sky-500 text-center py-2 px-4 text-white
+    }
+    .deleteicon{
+        stroke:red;
+        @apply mr-4;
+        @apply cursor-pointer;
+        @apply text-gray-600 hover:text-red-600;
+    }
+    .editicon {
+      stroke: skyblue;
+      @apply cursor-pointer;
+      @apply text-gray-600 hover:text-blue-600;
+    }
+  }

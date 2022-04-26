@@ -1,0 +1,48 @@
+.Main{
+  background-color: rgb(242, 245, 248);
+  width: 85%;
+  margin: 40px auto;
+  // control the top wrap of the main
+  .Maintop{
+    @apply flex justify-around items-center;
+  }
+  .Mainbottom{
+    @apply  rounded shadow-lg px-4 py-4;
+    .bottom-chart-title{
+      @apply align-middle text-center; 
+      
+    }
+ 
+  }
+  .right-chart{
+    @apply  rounded shadow-lg px-4 py-4;
+  }
+  .left-chart{
+    @apply  rounded shadow-lg px-4 py-4;
+  }
+ .TransactionHistory{
+   display: flex;
+   flex-direction: column;
+   .addPrompt{
+      height: 80px;
+      width: 500px;
+      @apply bg-slate-200;
+      @apply flex justify-between items-center;
+      .prompttext{
+        margin-left: 10px;
+        @apply flex justify-start items-center;
+        @apply  text-2xl space-x-2;
+      }
+      .promptbutton{
+        width: 110px;
+        height: 50px;
+        margin-right: 10px;
+        @apply bg-blue-400 text-white;
+      }
+      .promptbutton:hover{
+        @apply bg-blue-500;
+      }
+
+   }
+ }
+}

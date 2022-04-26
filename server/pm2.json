@@ -1,0 +1,16 @@
+[{
+  "name": "blog",
+  "script": "server/start.js",
+  "exec_mode": "cluster",
+    "instances": 0,
+    "max_memory_restart": "256M",
+    "autorestart": true,
+  "error_file": "server/logs/app-err.log",
+  "out_file": "server/logs/app-out.log",
+  "env_dev": {
+    "NODE_ENV": "development"
+  },
+  "env_production": {
+    "NODE_ENV": "production"
+  }
+}]
